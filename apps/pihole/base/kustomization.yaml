@@ -6,4 +6,5 @@ metadata:
 resources:
   - namespace.yaml
   - deployment.yaml
-  - service.yaml
+  - dns-service.yaml
+  - admin-service.yaml

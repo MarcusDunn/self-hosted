@@ -7,10 +7,10 @@ spec:
   rules:
     - http:
         paths:
-          - path: /argocd
+          - path: /pihole
             pathType: Prefix
             backend:
               service:
-                name: argocd-server
+                name: admin-service
                 port:
                   number: 80
