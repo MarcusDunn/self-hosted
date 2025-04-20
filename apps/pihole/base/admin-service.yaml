@@ -5,7 +5,7 @@ metadata:
   namespace: pihole
 spec:
   selector:
-    app: pihole-admin
+    app: pihole
   ports:
     - protocol: TCP
       port: 80
