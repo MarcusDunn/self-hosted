@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/marcusdunn/self-hosted
-    path: apps/argocd
+    path: apps/argocd/base
     targetRevision: HEAD
   syncPolicy:
     automated:
