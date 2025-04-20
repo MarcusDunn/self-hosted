@@ -5,3 +5,4 @@ metadata:
   namespace: pihole
 resources:
   - namespace.yaml
+  - deployment.yaml
