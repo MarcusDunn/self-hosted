@@ -4,7 +4,7 @@ metadata:
   name: pihole-dns
 spec:
   selector:
-    app: pihole-dns
+    app: pihole
   ports:
     - protocol: TCP
       targetPort: dns
