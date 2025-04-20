@@ -4,6 +4,7 @@ metadata:
   name: root
   namespace: argocd
 spec:
+  project: default
   source:
     repoURL: https://github.com/marcusdunn/self-hosted
     path: root
@@ -13,3 +14,6 @@ spec:
       prune: true
     syncOptions:
       - ServerSideApply=true
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argocd
