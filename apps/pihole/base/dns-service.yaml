@@ -10,4 +10,7 @@ spec:
     - protocol: TCP
       targetPort: dns
       port: 53
+    - protocol: UDP
+      targetPort: dns
+      port: 53
   type: LoadBalancer
